@@ -1,0 +1,53 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+client
+server
+
+# testing files
+test-files/tester
+test-files/BoundedBuffer.*
+
+# pipes
+fifo*
+
+# received dir
+# exclude everything
+received/*
+
+# exception to the rule
+!received/.gitkeep 
+BIMDC/test.bin
+
+# IDE and temp files
+.vscode/
+*~
